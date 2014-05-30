@@ -15,6 +15,7 @@
     "proxy"
   ],
   "author": "Eugen Sawin <esawin@mozilla.com>",
+  "contributors": [ { "name": "Sylvain Cleymans", "email": "sylvain.cleymans@gmail.com" } ],
   "license": "MIT",
   "dependencies": {
     "colors": "~0.6.2",
