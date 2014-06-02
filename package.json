@@ -1,9 +1,10 @@
 {
   "name": "gonzales",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Secure SPDY Proxy.",
   "main": "./lib/server.js",
   "scripts": {
+    "pretest": "jshint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,9 @@
     "mozjpeg": "^0.1.1",
     "optimist": "~0.6.1",
     "png": "~3.0.3",
-    "spdy": "~1.26.0"
+    "optimist": "~0.6.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.1"
   }
 }
