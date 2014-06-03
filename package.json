@@ -4,7 +4,7 @@
   "description": "Secure SPDY Proxy.",
   "main": "./lib/server.js",
   "scripts": {
-    "pretest": "jshint lib",
+    "pretest": "jslint '**/*.js'",
     "test": "echo \"no tests\" && exit 0"
   },
   "repository": {
@@ -25,6 +25,6 @@
     "optimist": "~0.6.1"
   },
   "devDependencies": {
-    "jshint": "^2.5.1"
+    "jslint": "^0.5.2"
   }
 }
