@@ -1,0 +1,8 @@
+server:
+  proxyPort: 55055
+  keyPath: ./keys/key.pem
+  certPath: ./keys/crt.pem
+  pacPort: 55555
+
+gzip:
+  level: 9
